@@ -1,8 +1,8 @@
 <script>
-import Python from '../assets/python.png'
-import Svelte from '../assets/svelte.png'
-import React from '../assets/react.png'
-
+import Python from './python.png'
+import Svelte from './svelte.png'
+import React from './react.png'
+import Ionic from './ionic.png'
 </script>
 
 
@@ -11,7 +11,7 @@ import React from '../assets/react.png'
 <img src={Python} alt="" class="item rotate1 " style="bottom:0"/>
 <img src={Svelte} alt="" class="item rotate1 " style="top:0;right:0"/>
 <img src={React} alt="" class="item rotate1 " style="top:0;left:0"/>
-
+<img src={Ionic} alt="" class="item " style="bottom:0;right:0"/>
 </div>
 
 <style>
