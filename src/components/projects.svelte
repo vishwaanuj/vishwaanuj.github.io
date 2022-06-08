@@ -1,8 +1,8 @@
 <script>
     import Carousel from 'svelte-carousel'
-    import DocturePoly from "../assets/DocturePoly.png"
-    import Nebiro from "../assets/nebiro.png"
-    import Jananya from "../assets/jananya.png"
+    import DocturePoly from "./DocturePoly.png"
+    import Nebiro from "./nebiro.png"
+    import Jananya from "./jananya.png"
     let carousel; // for calling methods of the carousel instance
  
   </script>
