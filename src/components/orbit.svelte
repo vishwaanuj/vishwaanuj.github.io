@@ -2,7 +2,7 @@
 import Python from '../assets/python.png'
 import Svelte from '../assets/svelte.png'
 import React from '../assets/react.png'
-import ionic from "../assets/ionic.png"
+import ionic from '../assets/ionic.png'
 </script>
 
 
