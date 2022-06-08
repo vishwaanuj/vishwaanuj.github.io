@@ -1,5 +1,5 @@
 <script>
-import Kalam from "../assets/Kalam-Regular.ttf"
+
 
 </script>
 
