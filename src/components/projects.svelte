@@ -2,27 +2,55 @@
     import Carousel from 'svelte-carousel'
     import DocturePoly from "./DocturePoly.png"
     import Nebiro from "./nebiro.png"
-    import Jananya from "./jananya.png"
+    import Jananya from "./jananya.png";
+    import Medmokk from './medmokk.png'
+    import Project_Details from './project_details.svelte'
+
+    import Python from './python.png'
+import Svelte from './svelte.png'
+import React from './react.png'
+import Ionic from './ionic.png'
+import { SvelteComponent } from 'svelte/internal';
     let carousel; // for calling methods of the carousel instance
  
   </script>
   
-  <Carousel
-
-
->
+  <Carousel>
+    <div class="item float">
+      <Project_Details 
+      title="Medmokk"
+      name={Medmokk} 
+      des="A user interface for oral scanning checkup and connecting with dentists "
+      tech={[Python,React]}
+      />
+    </div>
+<div class="item ">
+ <Project_Details
+ title="DocturePoly" 
+ name={DocturePoly} 
+ des=" Docturepoly is a vital monitoring device for monitoring patients"
+ tech={[Svelte,Ionic]}
+ />
+  </div>
+ 
+ 
 
 <div class="item float">
-    <img src={DocturePoly} alt=""/>
-    <div>DocturePoly</div>
+  <Project_Details 
+  title="Nebiro"
+  name={Nebiro} 
+  des="Diagnostic and therapeutic device for chronic COPD/ asthama patients."
+  tech={[React,Ionic]}
+  />
+   
 </div>
 <div class="item float">
-    <img src={Nebiro} alt=""/>
-    <div>Nebiro</div>
-</div>
-<div class="item float">
-    <img src={Jananya} alt=""/>
-    <div>Jananya</div>
+  <Project_Details 
+  title="Jananya"
+  name={Jananya} 
+  des="A desktop based platform for monitoring intrapartum patients"
+  tech={[Python,React]}
+  />
 </div>
 
 
@@ -36,23 +64,19 @@
       border:dashed 2px black;
       
    }
-
+  
    .item{
     
       display: flex;
       align-items: center;
-      flex-direction: column;
+    
   
    }
 
-   .float{
-  animation:float 3s linear infinite
-}
+ 
 
-@keyframes 
-float{
-  0% { transform: translate(0,  0px); }
-    50%  { transform: translate(0, -5px); }
-    100%   { transform: translate(0,0px); }
-}
+
+
+
+
   </style>

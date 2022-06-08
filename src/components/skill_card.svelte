@@ -1,11 +1,10 @@
 <script>
 
-
+export let desc="Things i have worked on"
 </script>
 
 <div class="card">
- <h3>Things i have worked on </h3>
-
+ <h3>{desc} </h3>
  <div>
 
  </div>
@@ -21,6 +20,7 @@
 
     
      margin-top:10%;
+     margin-bottom: 12%;
      border-radius: 10px;;
    
  }
