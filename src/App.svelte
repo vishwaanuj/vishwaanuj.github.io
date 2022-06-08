@@ -1,8 +1,8 @@
 <script >
-  import logo from './assets/svelte.png'
-  import Counter from './lib/Counter.svelte'
+  
+
   import Main from './pages/main.svelte';
-  import Header from './components/header.svelte';
+
 </script>
 
 <ion-content>
