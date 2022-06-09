@@ -2,7 +2,7 @@
 
     import SkillCard from "./skill_card.svelte";
     import Me from "./me.png"
-    import { GithubIcon,TwitterIcon,InstagramIcon,LinkedinIcon } from 'svelte-feather-icons'
+    import { GithubIcon,TwitterIcon,YoutubeIcon,LinkedinIcon } from 'svelte-feather-icons'
   
 </script>
 
@@ -17,7 +17,7 @@
   Hey! 
   I am self taught coder with a degree in 
   Mechatronics and a passion for tinkering.
-  Currently,residing at hyderabad(India).
+  Currently,residing at Hyderabad(India).
   Have an awesome idea wanna discuss with some coffee?
   Catch me on my social links!
   see you soon!
@@ -28,10 +28,10 @@
 
 </div>
 <div class="social">
-    <TwitterIcon size="20" />
-    <InstagramIcon size="20"/>
-    <GithubIcon size="20"/>
-    <LinkedinIcon size="20"/>
+    <a href="https://twitter.com/VishwaAnuj1"><TwitterIcon size="20" /></a>
+   <a href="https://www.youtube.com/channel/UCRz1K769DEI0D5o-zy7hZBg"><YoutubeIcon size="20"/></a> 
+   <a href="https://github.com/vishwaanuj"> <GithubIcon size="20"/></a>
+   <a href="https://www.linkedin.com/in/vishwa-anuj/"><LinkedinIcon size="20"/></a> 
 </div>
 <style>
     .content{
@@ -50,6 +50,10 @@
     .thumbnail{
         display: flex;
         align-items: center;
+    }
+
+    a{
+        color:white
     }
     .about{
         font-family: 'Patrick Hand';
