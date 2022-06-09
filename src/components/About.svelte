@@ -2,7 +2,7 @@
 
     import SkillCard from "./skill_card.svelte";
     import Me from "./me.png"
-    import { GithubIcon,TwitterIcon,YoutubeIcon,LinkedinIcon,FileIcon } from 'svelte-feather-icons'
+    import { GithubIcon,TwitterIcon,YoutubeIcon,LinkedinIcon } from 'svelte-feather-icons'
   
 </script>
 
@@ -11,10 +11,10 @@
 
 <div class="content">
  <div class="thumbnail float">
-    <a href="./Vish.pdf" style="margin-top:30px;color:black;text-decoration:dashed;" download><FileIcon></FileIcon>My Resume
+   
     <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_ccdngwrd.json"  
-    background="transparent"  speed="1"  style="width: 180px; height: 180px;"  loop  autoplay></lottie-player>
-    </a> 
+    background="transparent"  speed="1"  style="width: 180px; height: 400px;"  loop  autoplay></lottie-player>
+
 </div>
 <div class="about">
   Hey! 
@@ -48,7 +48,7 @@
 
    .thumbnail {
         height: 250px;
-       text-align: center;
+       
         width:150px;
         border-radius: 100px;
         background-color: aliceblue;
