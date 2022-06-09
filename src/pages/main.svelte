@@ -4,6 +4,7 @@ import Typewriter from 'svelte-typewriter'
  import Orbit from '../components/orbit.svelte';
 import Card from "../components/skill_card.svelte";
 import Projects from '../components/projects.svelte';
+import About from '../components/About.svelte'
 </script>
 
 
@@ -68,7 +69,9 @@ import Projects from '../components/projects.svelte';
 <div>
   <Projects/>
 </div>
-
+<div>
+  <About/>
+</div>
 
 <style>
 
