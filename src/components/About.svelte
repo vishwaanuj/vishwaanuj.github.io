@@ -2,7 +2,7 @@
 
     import SkillCard from "./skill_card.svelte";
     import Me from "./me.png"
-    import { GithubIcon,TwitterIcon,YoutubeIcon,LinkedinIcon } from 'svelte-feather-icons'
+    import { GithubIcon,TwitterIcon,YoutubeIcon,LinkedinIcon,FileIcon } from 'svelte-feather-icons'
   
 </script>
 
@@ -11,8 +11,11 @@
 
 <div class="content">
  <div class="thumbnail float">
-    <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_ccdngwrd.json"  background="transparent"  speed="1"  style="width: 200px; height: 400px;"  loop  autoplay></lottie-player>
- </div>
+    <a href="./Vish.pdf" style="margin-top:30px;color:black;text-decoration:dashed;" download><FileIcon></FileIcon>My Resume
+    <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_ccdngwrd.json"  
+    background="transparent"  speed="1"  style="width: 180px; height: 180px;"  loop  autoplay></lottie-player>
+    </a> 
+</div>
 <div class="about">
   Hey! 
   I am self taught coder with a degree in 
@@ -21,12 +24,6 @@
   Have an awesome idea wanna discuss with some coffee?
   Catch me on my social links!
   see you soon!
-
-  
-</div>
-
-
-</div>
 <div class="social">
     
   <a href="https://www.linkedin.com/in/vishwa-anuj/">  <LinkedinIcon size="20"/></a> 
@@ -34,18 +31,24 @@
    <a href="https://github.com/vishwaanuj"> <GithubIcon size="20"/></a>
    <a href="https://twitter.com/VishwaAnuj1"><TwitterIcon size="20" /></a>  
 </div>
+  
+</div>
+
+
+</div>
+
 <style>
     .content{
         display: flex;
         justify-content: space-evenly;
-        padding:2vw;
+        padding:1vw;
         margin-top: -2vh;
        
     }
 
    .thumbnail {
-        height: 220px;
-       
+        height: 250px;
+       text-align: center;
         width:150px;
         border-radius: 100px;
         background-color: aliceblue;
@@ -54,6 +57,7 @@
     }
     .thumbnail{
         display: flex;
+        flex-direction: column;
         align-items: center;
     }
     .about{
@@ -62,17 +66,20 @@
         margin:10px;
         display: flex;
         justify-content: center;
+        flex-direction: column;
         text-align: center;
         background-color: white;
         border-radius: 10px;
         text-align: justify;
     }
-a{color:white}
+
+ 
+a{color:black}
     .social{
         padding:10px;
         display: flex;
         justify-content: space-evenly;
-        color:white
+        color:white;z-index:3
     }
 
     .float{
