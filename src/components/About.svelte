@@ -39,6 +39,7 @@
 
 <style>
     .content{
+        font-family: 'Patrick Hand';
         display: flex;
         justify-content: space-evenly;
         padding:1vw;
@@ -61,7 +62,7 @@
         align-items: center;
     }
     .about{
-        font-family: 'Patrick Hand';
+       
         padding:10px;
         margin:10px;
         display: flex;

@@ -93,12 +93,14 @@ border-radius: 10px;
 transition: 1s linear;;
 height: 60%;
 
+
   }
   .intro_text{
     text-align:left;
     font-size: 3.5vh;
     font-weight: bold;
     margin:0px 20px 0px 20px ;
+    
     
 }
 
